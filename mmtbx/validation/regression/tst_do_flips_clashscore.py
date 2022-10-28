@@ -61,7 +61,7 @@ ATOM    533  OE1 GLN A 100      32.675 -25.714   9.280  1.00 24.40           N
 '''
 
 
-class MyTestCase(unittest.TestCase):
+class TestHydrogenIdentifyingAddition(unittest.TestCase):
 
   def setUp(self):
     self.file_to_delete = []

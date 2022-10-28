@@ -182,7 +182,7 @@ HETATM 1074  O   HOH A3007      49.639  13.800 -48.775  1.00 78.70           O
 '''
 
 
-class MyTestCase(unittest.TestCase):
+class TestHydrogenIdentifyingAddition(unittest.TestCase):
 
   def setUp(self):
     self.file_to_delete = []
